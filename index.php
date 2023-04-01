@@ -10,15 +10,7 @@
 			The code is public domain.<br/>
 			<img src="captcha.php" alt="Derivative Captcha" title="Derivative Captcha" />
 		</p>
-		<pre>
-<?php
-	$f = file_get_contents("captcha.php");
-	$f = str_replace("&","&amp;",$f);
-	$f = str_replace("<","&lt;",$f);
-	$f = str_replace(">","&gt;",$f);
-	echo $f;
-			?>
-</pre>
-	</body>
 
+		<?php highlight_file("captcha.php"); ?>
+	</body>
 </html>
