@@ -1,4 +1,6 @@
 <?php
+	error_reporting(E_ALL ^ E_DEPRECATED);
+
 	/* Settings */
 	$size = 15;  				/* font size */
 	$position = 0.5; 			/* spacing */
